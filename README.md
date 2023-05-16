@@ -2,7 +2,8 @@
 
 ## What does
 
-script to identify a song through shazam servers, download tags, cover art and set to mp3 automatically.
+Script to identify a song through shazam servers, download tags, cover art and set to mp3 automatically.
+This script normalizes the volume to the maximum automatically.
 
 ## Dependencies
 

@@ -33,12 +33,12 @@ $urlCover = $track['share']['image'];
 
 audioToMp3($path, $filenameMp3, getMaxVol($path));
 
-$cmd = "eyeD3 \"".$filenameMp3."\" -a \"".$artist."\" -t \"".$title."\" -A \"".$album."\" --to-v2.3";
+$cmd = "eyeD3 ".escapeshellarg($filenameMp3)." -a ".escapeshellarg($artist)." -t ".escapeshellarg($title)." -A ".escapeshellarg($album)." --to-v2.3";
 
 if (strlen($urlCover)>6) {
 	curlc($urlCover, $filenameJpgA);
 	resize($filenameJpgA, $filenameJpgB, 600, 600);
-	$cmd .= " --add-image \"".$filenameJpgB."\":FRONT_COVER";
+	$cmd .= " --add-image ".escapeshellarg($filenameJpgB).":FRONT_COVER";
 }
 
 exec($cmd);

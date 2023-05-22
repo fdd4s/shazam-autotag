@@ -24,6 +24,10 @@ this code is designed to work over linux.
     $ php ./autotag.php song.m4a
     $ php ./autotag.php song.mp3
     $ php ./autotag.php song.webm
+    
+## Related projects
+
+https://github.com/fdd4s/portable_mp3_player_video_converter_tools
 
 ## Credits
 

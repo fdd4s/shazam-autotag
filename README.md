@@ -1,6 +1,6 @@
 # shazam-autotag 
 
-## What does
+## What it does
 
 Script to identify a song through shazam servers, download tags, cover art and set to mp3 automatically.
 This script normalizes the volume to the maximum automatically.

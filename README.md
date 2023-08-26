@@ -12,6 +12,8 @@ imagemagick
 ffmpeg  
 libmp3lame  
 eyeD3  
+curl  
+php  
 
 this code is designed to work over linux.
 
